@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="img">
+        <img src="./img/background/top-view-desk-concept-with-coffee_23-2148604923.jpg" alt="My Image">
+    </div>
+    <div class="container">
+        <div class="row w30">
+            <div class="row">
+                <label>First Name</label>
+                <input type="text" class="form-control" id="firstname" />
+            </div>
+            <div class="row">
+                <label>Last Name</label>
+                <input type="text" class="form-control" id="lastname" />
+            </div>
+            <div class="row">
+                <label>Email</label>
+                <input type="email" class="form-control" id="email" />
+            </div>
+            <div class="row">
+                <label>Male</label>
+                <input type="radio" name="gender" value="male" />
+                <label>Female</label>
+                <input type="radio" name="gender" value="female" />
+            </div>
+            <div class="row mt1">
+                <input type="button" value="submit" class="btn" onclick="showalert()" />
+            </div>
+        </div>
+        <div id="table"></div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
+
+

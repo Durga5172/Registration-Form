@@ -1,0 +1,24 @@
+.w30 {
+    width: 30%;
+}
+
+.mt1 {
+    margin-top: 2%;
+    color: black;
+}
+.img{
+height: 50px;
+width: 50px;
+padding: 10px;
+margin: 10px;
+}
+.parent {
+    background-color: white;
+    color: white;
+    display: flex;
+    position: fixed;
+}
+.container{
+    margin-top: 30px;
+    font-size: medium;
+}
